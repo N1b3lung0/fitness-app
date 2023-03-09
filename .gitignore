@@ -12,12 +12,20 @@
 /.next/
 /out/
 
+# IDEs and editors
+/.idea
+/.vscode
+
 # production
 /build
 
 # misc
 .DS_Store
 *.pem
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # debug
 npm-debug.log*
